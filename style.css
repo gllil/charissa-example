@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+.top {
+  border-bottom: 1px solid black;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(90deg, lightblue, white, lightblue);
+  position: relative;
+}
+
+.corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 12px;
+  width: 200px;
+  border: 1px solid palevioletred;
+  border-top: none;
+  z-index: 2;
+  background-color: plum;
+  border-radius: 0 0 12px 12px;
+}
+
+/* header section */
+.header {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 200px;
+  min-width: 150px;
+  padding: 0 5px;
+  border-right: 1px solid black;
+}
+
+.about-me h1 {
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 100px;
+  text-align: end;
+}
+
+/* basic info header section */
+.basic-info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.basic-info-section p {
+  margin-left: 50px;
+}
+
+/* main section */
+.main {
+  height: 500px;
+  display: flex;
+}
+
+.my-info {
+  border: 1px solid violet;
+  background-color: lightgrey;
+  padding: 0 20px;
+  margin-right: 50px;
+}
+
+.projects-and-bio {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.projects {
+  border: 2px solid blueviolet;
+  height: 100px;
+  width: 200px;
+  margin: 20px 0;
+}
+
+.bio {
+  display: flex;
+  place-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.other-work {
+  display: flex;
+  align-items: center;
+  min-height: 75px;
+  padding: 0 200px;
+  border: 2px solid blueviolet;
+}
+
+/* quote section in main */
+.quote-section {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.quote-section p {
+  transform: rotate(-90deg);
+  width: 200px;
+  text-align: center;
+}
+
+/*footer section*/
+.footer {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 200px;
+  min-width: 150px;
+  padding: 0 5px;
+  border-right: 1px solid black;
+}
+
+.contact-me h1 {
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 120px;
+  text-align: end;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
